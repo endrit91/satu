@@ -1,0 +1,455 @@
+/*  
+#ec4034  ngjyra e navigimit kuqe
+#363940   ngjyra e 3  gri
+
+#191c21     ngjyra 4  zez
+#252932     ngjyra 5  gri
+#3a434c       ngjyra 6 gri e erret
+#535b66         brenda formes menu
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+	  -webkit-font-smoothing: antialiased;
+      text-rendering: optimizelegibility; 
+}
+
+body {
+	font-family: "Arial Pro Cyrillic Narrow Bold", Helvetica, Arial, sans-serif;
+	font-size:14px;
+	line-height:28px;
+	margin: 0px;
+	
+
+
+}
+h1,h2,h3 {font-weight: 600;
+	margin: 0;
+	line-height:45px;
+	color: white;
+}
+
+h4,h5,h6 {
+	font-weight: ;
+	margin: 5px 0 5px 0;
+	color: white;
+}
+
+h1 {
+	font-size: 19px;
+color: ;
+}
+
+h2 {
+	font-size: 15px;
+color: ;
+}
+
+h3 {
+	font-size: 13px;
+color: ;
+}
+
+
+h4 {
+	font-size: 13px;
+color: #ec4034 ;
+}
+
+h6 {
+	font-size: 10px;
+color: ;
+}
+p{
+	font-size: 12px;
+	color:white;
+	margin-top: 10px;
+	line-height:20px;
+}
+p.1 {
+	font-size: 15px;
+	color: white;
+}
+
+.all_container { width: 900px;
+	padding: 0 10px;
+	margin: 0 auto;
+	background: ;
+	}
+header {
+	display: block;
+	background: #ec4034;
+	width: 100%;
+	position: relative;
+	
+}
+
+#logo {
+	display: block;
+	padding: 14px 0px;
+	float: left;
+
+}
+
+
+
+#container1{
+display: block;
+background-image: url("../img/b.gif");
+background-repeat: no-repeat;
+height: 600px;
+overflow: hidden;
+background-size: 100% 100%;
+
+}  
+#mision{
+	position:absolute;
+    width:100%;
+    bottom:20px;
+    text-align:center;
+}
+hr {
+	width:65%; height:4px; background: white; 
+	margin: 0px auto 20px auto;
+}
+
+nav ul {
+	margin:0px;
+	padding:0px;
+	float: right; 
+}
+
+nav ul li {
+
+	list-style: none;
+	float: left;
+
+}
+
+
+nav ul li a {
+	display: block;
+	color: ;
+	text-decoration: none;
+	font-weight: 600;
+	padding: 14px;
+	color: #ffd8cf; 
+	border: solid 1px #ec4034;
+}
+
+nav ul li a:hover {
+	background: ;
+	border: solid 1px white;
+	border-radius: 0px;
+	margin: 10px 0;
+	padding: 4px 14px;
+
+}
+
+nav ul li a:active {
+-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.8) inset; /*1- safari chrome 2-mozilla 3-tjeter */
+-moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.8) inset;	
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.8) inset;
+}
+
+
+
+/* global style*/
+.clearfix:before,
+.clearfix:after {
+	content:"";
+	display: table;
+}
+.clearfix:after {
+clear:both;
+}
+
+.clearfix {
+	zoom:1;
+}
+#container2{
+background: #363940;
+}
+
+#vendi_img {
+	float: left;
+	margin: 30px auto;
+	text-align: center;
+
+
+}
+
+#vendi_img{
+	background-image: url("../img/sfer.jpg");
+ 	background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    background-size: 100% 100%;
+    border: solid 1px grey;
+    
+   
+    position: relative;
+    top:50%;
+    }
+
+#text1 { 
+	display: block;
+	max-width: 500px;
+	padding: 40px 0;
+	float: right;
+	
+	word-wrap: break-word;
+	
+
+}
+.btn2 {
+    background-color: #ec4034;
+    border: none;
+    color: white;
+    padding: 1px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+/*
+#vendi_img{
+-moz-border-radius: 100px; /* FF1+ 
+-webkit-border-radius: 100px; /* Saf3-4 */
+ /* Opera 10.5, IE 9, Saf5, Chrome 
+background-image: url("/Projekti_im/IMG/sfer.jpg");
+min-width:200px;     
+min-height:200px; 
+background-repeat: ;
+overflow: hidden;
+
+}
+*/
+
+
+ #container3{
+    display: block;
+	background: #191c21;
+	padding: 40px 0;
+	}
+
+
+
+   
+
+  .kolona{
+    	margin: 20px 0px 30px 0;
+    	width: 230px;
+    	float: left;
+    	border: solid 1px white;
+    	text-align: center;
+    	padding: 20px; 
+    }
+   .kolona_mes{
+   	margin: 20px 40px;
+
+   }
+   .kolona_majtas {
+   	margin: 20px 0px 20px 55px;
+   }
+
+   #text2 {
+   	text-align: center;
+   }
+
+  #container4{
+  	background-color: #252932;
+  	text-align: center;
+  }
+
+  .map { width: ;
+             
+      }
+
+
+ #text3 {
+ 	margin: 30px 0 20px 0;
+ }
+
+ #address {
+ 	margin: 10px 0 30px 0;
+ }
+
+ #container5 {
+ 	background-color: #3a434c;
+ 	text-align: center;
+ }
+
+ #contact {
+ 	margin: 30px 0 20px 0;
+ }
+
+ input { 
+ 	margin-bottom: 10px; 
+ }
+
+input[type=email], input[type=password], input[type=text] {
+	width: 45%;
+	background-color: #535b66;
+	color: white;
+	line-height: 20px;
+}
+
+#message {
+	width: 45%;
+	height: 100px;
+	background-color: #535b66;
+	color: white;
+
+	}
+
+input[type=submit] {
+	
+   border-radius: 15px;
+	  /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+  -webkit-border-radius: 15px; 
+
+  /* Firefox 1-3.6 */
+  -moz-border-radius: 15px; 
+  
+  /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+  border-radius: 15px; 
+  background-color: #535b66;
+  color: white;
+}
+.line{ 
+
+width:600px; height:2px; background: white; 
+	margin: 20px auto 5px auto;
+ }
+ #copyright{
+ 	float: left;
+ 	margin: 0 auto 20px 150px;
+ }
+ .social {
+ 	float: right;
+ 	margin: 0 150px 20px auto;
+
+ }
+
+/*....................media................*/
+
+
+@media (max-width: 900px){
+
+	.all_container{
+		width: 100%;
+
+	}
+	#text1 {
+	width: 60%;
+	margin: 10px 20%;
+	text-align: center;
+}
+
+#vendi_img{
+	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	float:none;
+}
+
+.kolona{
+
+	width: 80%;
+	margin: 10px 10%;
+}	
+	
+}
+
+
+
+/*....................media................*/
+@media (max-width: 600px) {
+	.map {
+		width: 100%;
+	}
+
+	.line{
+		width:100%;
+	}
+
+.line1{
+	width: 100%;
+}
+#mision{
+	width: 100%;
+}
+#text1 {
+	width: 56%;
+}
+
+#copyright{
+ 	float: none;
+ 	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	
+
+ 	
+ }
+ .social {
+ 	float: none;
+ 	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+ }
+
+
+}
+
+@media (max-width: 480px) {
+#container1 {
+	width: 100%;
+	height: 400px;
+}	
+
+
+
+#vendi_img{
+	width: 250px;
+	height: 250px;
+	float: none;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+#logo {
+	width:100%;
+	display: block;
+	padding: 14px 0px;
+	float: none;
+	text-align: left;
+
+}
+
+nav ul li {
+	width:100%;
+	padding:0;
+	text-align: center;
+	
+}
+
+nav ul {
+	max-height: ;
+}
+
+}
